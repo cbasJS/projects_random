@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+body {
+    background-color: #3D85C6;
+    color: rgba(0, 0, 0, .8);
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font {
+    font-family: 'Black Han Sans', arial, serif;
+    text-align: justify;
+    font: italic bold 40px 'Black Han Sans', arial, sans-serif;
+    /* font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;     */
+}
+
+/* https:gooogle.com/fonts */

@@ -1,0 +1,28 @@
+:root {
+    --primary: #3D85C6;   
+    --margin: rgba(0,0,0,.2);
+    --box: lightgreen;
+    --content: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box {
+    background-color: lightgrey;
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+    background-color: var(--content);
+}

@@ -1,0 +1,15 @@
+.box {
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    /* padding: 25px 10px 50px 0; */
+    padding: 10px;
+    /* Specifies the behavior of the 
+        width and height */
+    box-sizing: border-box;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}

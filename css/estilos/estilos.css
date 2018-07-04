@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    /*Espacio entre elementos*/
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 1rem;
+    width: 80%;
+}
+
+header nav:first-child {
+    font-size: 1rem;
+}
+
+/**/
+header nav:last-child {
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color:black;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 2rem;
+}
+
+li {
+    flex: 1; /*Todos los elementos son del mismo tamaño*/
+    margin: 0 .5rem;
+}
+
+li a {
+    color: gray;
+}
+
+ul > li:first-child a{
+    color: aqua;
+}
+
+li a:hover {
+    background: black;
+    color: #ccc;
+}
+
+.carrito {
+    color: gray;
+}
+
+/* Hero */
+.hero {
+    background: aqua;
+    height: 60vh;
+}
+
+input [type="text"] {
+    color: orange;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    border: 1px solid blueviolet;
+}
+
+input[value~="mundo"] {
+    color: red;
+}
+
+.btn {
+    border: 1px solid orange;
+    background: greenyellow;
+    color: black;
+    padding: 0.5rem;
+}
+
+.btn:hover {
+    border: 1px solid greenyellow;
+    background: orange;
+    color: white
+}
+
+.btn:active {
+    border: 1px solid blue;
+    background: dodgerblue;
+    color: yellow;
+}

@@ -1,0 +1,34 @@
+/* ul li:first-child a {
+    color: tomato;
+} */
+/* ul li:nth-child(even) a {
+    color: tomato;
+} */
+/* ul li:last-child a {
+    color: tomato;
+} */
+/* ul li a:active {
+    color: gold;
+    font-size: 2em;    
+}
+ul li a:visited {
+    color: lightseagreen;
+    font-size: 2em;    
+}
+ul li a:hover {
+    color: lightseagreen;
+    font-size: 2em;    
+} */
+
+ul a:hover::before {
+    content: "⇨  ";
+    color: tomato;
+}
+
+/* 
+    Pseudo Elements
+    https://www.w3schools.com/css/css_pseudo_elements.asp
+    
+    Psudo Classes
+    https://www.w3schools.com/css/css_pseudo_classes.asp
+ */

@@ -1,0 +1,16 @@
+/* body {
+    font-size:  6px;
+} */
+.bar {
+    /* font-size: 8px; */
+    /* 160px */
+    /* width: 20rem; */
+    width: 50%;
+}
+/* valor absoluto */
+.progress {
+    /* font-size: 16px; */
+    /* 160px */
+    /* width: 10rem; */
+    width: 50%;
+}
